@@ -8,8 +8,7 @@ on:
     types: [published]
   push:
     branches:
-      - main
-      - release/*
+      - production
     paths-ignore:
       - 'documentation/**'
 
