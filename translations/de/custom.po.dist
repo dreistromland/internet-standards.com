@@ -1,0 +1,20 @@
+msgid "base about custom"
+msgstr "Über internet-standards.de"
+
+msgid "base info custom"
+msgstr "About this website"
+
+msgid "about content custom"
+msgstr "Some about content"
+
+msgid "about contact custom"
+msgstr ""
+"# About custom\n"
+"## Email\n"
+"custom@example.com\n"
+
+msgid "privacy content custom"
+msgstr ""
+"# Privacy statement\n"
+"\n"
+"*Revised 24th of October 2023*\n"

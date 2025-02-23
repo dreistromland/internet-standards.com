@@ -124,7 +124,7 @@ msgid "base halloffame web"
 msgstr "Ruhmeshalle - Websites"
 
 msgid "base home"
-msgstr "Zuhause"
+msgstr "Start"
 
 msgid "base info"
 msgstr ""
