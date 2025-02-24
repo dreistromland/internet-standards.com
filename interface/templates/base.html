@@ -37,46 +37,19 @@
   <div class="skiplink"><a href="#footer">{% include "string.html" with name='page gotofooter' %}</a></div>
   <header>
     <div class="wrap">
-      {% if "INTERNETNL_BRANDING"|get_settings_value %}
       <div id="masthead">
         <p id="site-title"><a href="/"><span class="hidden">{% include "string.html" with name='page sitetitle' %}</span></a></p>
         <p id="site-description"><span class="hidden">{% include "string.html" with name='page sitedescription' %}</span></p>
       </div>
-      {% endif %}
-
-      <!-- language switch -->
-      <div id="language-switch-header-container">
-        <ul class="language-switch-list">
-
-      {% with user_language=request.current_language_code %}
-        {% for language in LANGUAGES %}
-        {% get_language_info for language.0 as lang %}
-          <li>
-          {% if language.0 == user_language %}
-            <button class="active-language" disabled>{{lang.name_local}}</button>
-          {% else %}
-            <form action="/change_language/" method="post">
-              <input type="hidden" name="previous-page" value="{{request.path}}"/>
-              <input type="hidden" name="language" value="{{language.0}}"/>
-              <button>{{lang.name_local}}</button>
-            </form>
-          {% endif %}
-          </li>
-        {% endfor %}
-      {% endwith %}
-
-        </ul>
-      </div>
 
       <nav id="sitenav">
         <ul>
-          <li class="{% if pagemenu == 'news' %}current{% endif %}"><a href="/news/">{% include "string.html" with name="base news" %}</a></li>
+          <li class="{% if pagemenu == 'home' %}current{% endif %}"><a href="/">{% include "string.html" with name="base home" %}</a></li>
           <li class="{% if pagemenu == 'faqs' %}current{% endif %}"><a href="/faqs/">{% include "string.html" with name="base faqs" %}</a></li>
           <li class="{% if pagemenu == 'halloffame' %}current{% endif %}"><a href="/halloffame/">{% include "string.html" with name="base halloffame" %}</a></li>
           {% if "INTERNETNL_BRANDING"|get_settings_value %}
           <li class="{% if pagemenu == 'about' %}current{% endif %}"><a href="/about/">{% include "string.html" with name="base about" %}</a></li>
           {% else %}
-          <li class="{% if pagemenu == 'about' %}current{% endif %}"><a href="/about/">{% include "string.html" with name="base about custom" %}</a></li>
           {% endif %}
         </ul>
       </nav>
