@@ -2,46 +2,14 @@
 Hash: SHA512
 
 # Canonical URLs
-Canonical: https://internet.nl/.well-known/security.txt
-Canonical: https://www.internet.nl/.well-known/security.txt
-Canonical: https://nl.internet.nl/.well-known/security.txt
-Canonical: https://en.internet.nl/.well-known/security.txt
-Canonical: https://ipv6.internet.nl/.well-known/security.txt
-Canonical: https://nl.ipv6.internet.nl/.well-known/security.txt
-Canonical: https://en.ipv6.internet.nl/.well-known/security.txt
-Canonical: https://batch.internet.nl/.well-known/security.txt
-Canonical: https://en.batch.internet.nl/.well-known/security.txt
-Canonical: https://nl.batch.internet.nl/.well-known/security.txt
-Canonical: https://dashboard.internet.nl/.well-known/security.txt
-Canonical: https://ipv6.dashboard.internet.nl/.well-known/security.txt
-Canonical: https://toolbox.internet.nl/.well-known/security.txt
-Canonical: https://emailveilig.internet.nl/.well-known/security.txt
-Canonical: https://ipv6kaart.internet.nl/.well-known/security.txt
-Canonical: https://matomo.internet.nl/.well-known/security.txt
+Canonical: https://internet-standards.de/.well-known/security.txt
+Canonical: https://www.internet-standards.de/.well-known/security.txt
+Canonical: https://de.internet-standards.de/.well-known/security.txt
+Canonical: https://ipv6.internet-standards.de/.well-known/security.txt
+Canonical: https://de.ipv6.internet-standards.de/.well-known/security.txt
 
 # Our security address
-Contact: mailto:question@internet.nl
-
-# Our OpenPGP key
-Encryption: https://internet.nl/static/question@internet.nl_0x45028563.asc
+Contact: mailto:hello@dreistrom.land
 
 # Our security policy
-Policy: https://internet.nl/disclosure/
-
-Expires: 2025-09-09T00:00:00Z
------BEGIN PGP SIGNATURE-----
-
-iQIzBAEBCgAdFiEErLeIKUx+ErrpIoxg2JThX0UChWMFAmbe9QIACgkQ2JThX0UC
-hWOl9w//fNchS4XVtGG8m41YvPEh3jswxK2Fj7Oe5atxAjv8LNVwAWxVYjFpVPcp
-bkOrclK41SPX8BkYV8zKb/g641jeqZXKJxYGZRZyWVMlx7giwAD2hPi4l5QZ77UK
-6W468cScRfd51oKVfp91fXTkvQanVx23bYQ2Ti7kKd0ERsspEbX6NsuKUfLGA6rg
-7SpVxUBobkYLzR7RwvK5Qqs0+8k7syDnpi81Fy+dy/YLxzB9MERp3yUmve4xxdoW
-wuWSoJbynHfwHkD3QwjoOrLasowxi7dTW11Awe3Ll5p8GTa1UBbzfY7iwVJ2DesN
-gcBpoxREp9LdDynLOwHgX/k1uyadU7QVnm4bLjvmuDNIOaECBGcN15YDWC+mVap3
-h8OIgTW3oN3PtQA1WpsFaol8P0CHfo01MbC4EoOAMGv28GwR1AYjzs03FN+1MMCJ
-5PxbyB0Zs1s6DsD1xOAvXCyvf1nSdLH/uDReEN4E4zaL9aftnNv3Dxpu7i4l3z23
-ACqNPkNHPyad7JxZve5SXLJhYaCIcySEO/upEUdQIa58T/8cZxtMFiTO0kbbo8HE
-25H5OIwx/9voH9zd0B+g0xdbct4xYSL6iyZ6ebMlteaqgbHY7cjLW5o8RGZxTkQf
-mS2qRBl57PhvTubt09fq+b6LiQX5XnlXEEzp6+RhtfRXFLSvcJc=
-=tA8x
------END PGP SIGNATURE-----
+Policy: https://internet-standards.de/disclosure/
