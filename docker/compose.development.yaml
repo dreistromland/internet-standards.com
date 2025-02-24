@@ -29,6 +29,8 @@ services:
       - ../checks:/app/checks
       - ../interface:/app/interface
       - ../internetnl:/app/internetnl
+      - ../frontend:/app/frontend
+      - ../translations:/app/translations
 
   worker:
     volumes:

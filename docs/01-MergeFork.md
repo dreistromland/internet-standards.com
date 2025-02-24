@@ -15,6 +15,13 @@ git push -f origin version/1.x.x/adaptive_apollo -ff
 
 # install dev
 
+Create file `docker/local.env` with this content:
+
+```
+INTERNETNL_BRANDING=False
+LANGUAGES=de
+```
+
 ```sh
 sudo apt-get install inotify-tools
 GIT_LFS_SKIP_SMUDGE=1 git submodule update --init
