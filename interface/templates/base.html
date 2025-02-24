@@ -42,6 +42,24 @@
         <p id="site-description"><span class="hidden">{% include "string.html" with name='page sitedescription' %}</span></p>
       </div>
 
+      <!-- language switch -->
+      <div id="language-switch-header-container">
+        <ul class="language-switch-list">
+
+      {% with user_language=request.current_language_code %}
+        {% for language in LANGUAGES %}
+        {% get_language_info for language.0 as lang %}
+          <li>
+          {% if language.0 == user_language %}
+          {% else %}
+          {% endif %}
+          </li>
+        {% endfor %}
+      {% endwith %}
+
+        </ul>
+      </div>
+
       <nav id="sitenav">
         <ul>
           <li class="{% if pagemenu == 'home' %}current{% endif %}"><a href="/">{% include "string.html" with name="base home" %}</a></li>

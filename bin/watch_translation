@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+make exec env=develop "cmd=python3 bin/pofiles.py to_django"
+make exec env=develop "cmd=python3 manage.py compilemessages --ignore=.venv"
+make exec env=develop "cmd=pkill python3"
+
+while inotifywait -qre close_write ./translations/*/*.po*
+do 
+  make exec env=develop "cmd=python3 bin/pofiles.py to_django"
+  make exec env=develop "cmd=python3 manage.py compilemessages --ignore=.venv"
+  make exec env=develop "cmd=pkill python3"
+done
