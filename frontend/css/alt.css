@@ -102,10 +102,11 @@
 /* ===================================================================================== */
 /* images for test results */
 .testresult {
-  padding-left: 2.25em; /* 36px */
-  background: #fff url('/static/icon-testresult-default.png') .6em .6em no-repeat;
-  background-image: url('/static/icon-testresult-default.svg'), none; /* browsers that do not understand this will show the png-based image */
-  background-size: 1.125em 1.125em; /* 18px 18px */
+    padding-left: 2.25em;
+    background: #fff url("/static/icon-testresult-default.png") 0.6em 0.6em no-repeat;
+    background-image: url("/static/icon-testresult-default.svg"),none;
+    background-size: 1.125em 1.125em;
+    background-position:  10px 15px;
 }
 .faq-subtest {
   padding-left: 1.5em;
