@@ -1,9 +1,6 @@
 name: Internet.nl Docker
 
 on:
-  pull_request:
-    paths-ignore:
-      - 'documentation/**'
   release:
     types: [published]
   push:

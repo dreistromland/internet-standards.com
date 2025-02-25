@@ -68,6 +68,7 @@
           {% if "INTERNETNL_BRANDING"|get_settings_value %}
           <li class="{% if pagemenu == 'about' %}current{% endif %}"><a href="/about/">{% include "string.html" with name="base about" %}</a></li>
           {% else %}
+          <li class="{% if pagemenu == 'about' %}current{% endif %}"><a href="/about/">{% include "string.html" with name="base about custom" %}</a></li>
           {% endif %}
         </ul>
       </nav>
