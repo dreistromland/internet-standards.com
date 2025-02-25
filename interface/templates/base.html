@@ -28,9 +28,6 @@
 </head>
 <body class="{{pageclass}}">
   <div class="hidethis" aria-hidden="true">
-    <span id="matomo-url">{{"MATOMO_URL"|get_settings_value}}</span>
-    <span id="matomo-siteid">{{"MATOMO_SITEID"|get_settings_value}}</span>
-    <span id="matomo-subdomain-tracking">{{"MATOMO_SUBDOMAIN_TRACKING"|get_settings_value}}</span>
   </div>
   <div class="skiplink"><a href="#content">{% include "string.html" with name='page gotocontents' %}</a></div>
   <div class="skiplink" id="skiplink-sitenav"><a href="#sitenav">{% include "string.html" with name='page gotomainmenu' %}</a></div>
@@ -94,7 +91,6 @@
       {% else %}
       {% include "string.html" with name="base info custom" %}
       {% endif %}
-      <div class="version">v{{ "VERSION"|get_settings_value }}</div>
       <hr>
       <ul>
         <li><a class="footlink" href="/disclosure/">{% include "string.html" with name="base disclosure" %}</a></li>
@@ -112,6 +108,5 @@
   </footer>
   <script type="text/javascript" src="{% static "js/menu-min.js" %}" defer></script>
   <script type="text/javascript" src="{% static "js/accordion-min.js" %}" defer></script>
-  <script type="text/javascript" src="{% static "js/matomo-min.js" %}"></script>
 </body>
 </html>
