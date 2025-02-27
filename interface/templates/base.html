@@ -96,9 +96,7 @@
         <li><a class="footlink" href="/disclosure/">{% include "string.html" with name="base disclosure" %}</a></li>
         <li><a class="footlink" href="/privacy/">{% include "string.html" with name="base privacy" %}</a></li>
         <li><a class="footlink" href="/copyright/">{% include "string.html" with name="base copyright" %}</a></li>
-        {% if "HAS_ACCESSIBILITY_PAGE"|get_settings_value %}
-        <li><a class="footlink" href="/accessibility/">{% include "string.html" with name="base accessibility" %}</a></li>
-        {% endif %}
+        <li><a class="footlink" href="/imprint/">{% include "string.html" with name="base imprint" %}</a></li>
         {% if "INTERNETNL_BRANDING"|get_settings_value %}
         <li class="follow-us"><a class="footlink linkedinfollow" href="https://www.linkedin.com/company/internet-nl/">LinkedIn</a></li>
         <li class="follow-us"><a class="footlink mastodonfollow" href="https://mastodon.nl/@internet_nl" rel="me">Mastodon</a></li>

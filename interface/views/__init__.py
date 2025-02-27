@@ -117,6 +117,10 @@ def privacypage(request):
     return render(request, "privacy.html", dict(pagemenu="home", pagetitle=_("base privacy")))
 
 
+def imprintpage(request):
+    return render(request, "imprint.html", dict(pagemenu="home", pagetitle=_("base imprint")))
+
+
 def aboutpage(request):
     return render(request, "about.html", dict(pagemenu="about", pageclass="contact", pagetitle=_("base about")))
 

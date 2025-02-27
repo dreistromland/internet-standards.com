@@ -72,6 +72,7 @@ urlpatterns = [
     path("about/", views.aboutpage),
     path("disclosure/", views.disclosurepage),
     path("privacy/", views.privacypage),
+    path("imprint/", views.imprintpage),
 ]
 
 # Host-urls that are accessible by host-only, which should be approachable by developers as well during
