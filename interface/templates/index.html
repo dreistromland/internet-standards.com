@@ -73,18 +73,6 @@
 {% endblock %}
 
 {% block maincontent %}
-      <section class="block news">
-        <h2>{% include "string.html" with name="base news" %}</h2>
-        <ul>
-        {% for article in articles %}
-          {% expand "article {{article}} title" as articletitle %}
-          {% expand "article {{article}} date" as articledate %}
-          {% expand "article {{article}} lead" as articlelead %}
-          <li><a href="/article/{{article}}">{% include "string.html" with name=articletitle %}</a></li>
-        {% endfor %}
-        </ul>
-        <p class="read-more"><a href="/articles/">{% include "string.html" with name="base newslink" %}</a></p>
-      </section>
       <section class="block hall-of-fame">
         <h2>{% include "string.html" with name="base halloffame" %}</h2>
         <p>

@@ -5,42 +5,47 @@
     {% include "content.html" with name="widget site intro" %}
     <h2><label for="html-block">HTML</label></h2>
     <div>
-    <textarea id="html-block" readonly>&lt;form action="https://internet.nl/site/" method="POST"&gt;
-  &lt;p&gt;
-    &lt;img class="internetnl" src="https://internet.nl/static/logo_en.svg" alt="{% translate 'page sitedescription' %}"/&gt;
-    {% translate 'widget site html-block' %}
-  &lt;/p&gt;
-  &lt;label for="internetnl-site-url"&gt;{% translate 'base test website input'%}&lt;/label&gt;
-  &lt;input id="internetnl-site-url" type="text" inputmode="url" name="url" placeholder="www.example.nl"&gt;
-  &lt;button class="internetnl"&gt;{% translate 'base test start'%}&lt;/button&gt;
+    <textarea id="html-block" readonly>&lt;form class=&quot;internetstandards&quot; action=&quot;https://internet-standards.de/site/&quot; method=&quot;POST&quot;&gt;
+  &lt;img class=&quot;internetstandards&quot; src=&quot;https://internet-standards.de/static/logo_en.svg&quot; alt=&quot;Ist Ihr Internet auf dem neuesten Stand?&quot;/&gt;
+  &lt;strong&gt;Testen Sie Ihre Website&lt;/strong&gt;
+  &lt;div&gt;
+    &lt;label for=&quot;internetstandards-site-url&quot;&gt;Der Dom&auml;nenname Ihrer Website:&lt;/label&gt;
+    &lt;input id=&quot;internetstandards-site-url&quot; type=&quot;text&quot; inputmode=&quot;url&quot; name=&quot;url&quot; placeholder=&quot;www.example.com&quot;&gt;
+    &lt;button class=&quot;internetstandards&quot;&gt;Test starten&lt;/button&gt;
+  &lt;/div&gt;
 &lt;/form&gt;</textarea>
     </div>
     <h2><label for="css-block">CSS</label></h2>
-    <textarea id="css-block" readonly>img.internetnl {
+    <textarea id="css-block" readonly>form.internetstandards {
+  font-family: Helvetica, Arial, sans-serif;
+}
+img.internetstandards {
   max-width: 100%;
   height: auto;
   float: none;
   clear: both;
   display: block;
+  margin-bottom: 1em;
 }
-button.internetnl:hover {
+button.internetstandards:hover {
     cursor: pointer;
 }
-button.internetnl:hover,
-button.internetnl:focus,
-button.internetnl:active {
-    background: #ffab4c;
+button.internetstandards:hover,
+button.internetstandards:focus,
+button.internetstandards:active {
+    background: #990e5a;
 }
-button.internetnl {
-    display: block;
-    margin: 0 auto .5em;
-    background: #fff;
-    border: solid .3em #ffab4c;
-    font-family: 'robotobold', arial, sans-serif;
-    font-weight: bold;
-    font-size: 100%;
-    border-radius: 18px;
-    padding: .2em .5em;
+button.internetstandards {
+  display: block;
+  margin: 1em 0 1em;
+  background: #e5007d;
+  border: 0;
+  font-weight: bold;
+  font-size: 100%;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  color: #fff;
+  cursor: pointer;
 }</textarea>
     {% include "content.html" with name="widget content notes" %}
 {% endblock %}

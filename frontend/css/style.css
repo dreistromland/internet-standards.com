@@ -874,7 +874,6 @@ aside .further-testing li p,
 .read-more {
     overflow: hidden;
     display: block;
-    text-transform: lowercase;
     text-align: right;
     padding: 2px; /* this is needed for the focus outline */
 }
@@ -1867,7 +1866,7 @@ footer ul li.follow-us {
     main .wrap .block.wide,
     main .wrap .result.wide {
         width: auto;
-        max-width: 66%;
+        max-width: 65%;
     }
 
     .introwrap .wrap {
