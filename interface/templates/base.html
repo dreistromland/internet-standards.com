@@ -27,7 +27,6 @@
   {% endblock %}
 </head>
 <body class="{{pageclass}}">
-  <img id="flag" src="{% static "clear.gif" %}" alt="">
   <div class="hidethis" aria-hidden="true">
   </div>
   <div class="skiplink"><a href="#content">{% include "string.html" with name='page gotocontents' %}</a></div>
@@ -85,6 +84,7 @@
   </main>
 
   <footer id="footer">
+    <img id="flag" src="{% static "clear.gif" %}" alt="">
     <div class="wrap">
       {% if "INTERNETNL_BRANDING"|get_settings_value %}
       {% include "string.html" with name="base info" %}
