@@ -4,8 +4,8 @@ on:
   release:
     types: [published]
   push:
-    branches:
-      - production
+    tags:
+      - "*"
     paths-ignore:
       - 'documentation/**'
 

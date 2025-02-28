@@ -1455,7 +1455,7 @@ msgid "detail tech data http-referrer-policy recommendation-strict-origin-when-c
 msgstr "Empfehlung: \"strict-origin-when-cross-origin\" sollte nicht verwendet werden."
 
 msgid "detail tech data http-referrer-policy values"
-msgstr "Gefundene Richtlinie: {Werte}"
+msgstr "Gefundene Richtlinie: {values}"
 
 msgid "detail tech data http-securitytxt bom_in_file"
 msgstr "Fehler: Die Byte Order Mark (\"BOM\")-Signatur darf nicht am Anfang des Inhalts erscheinen, der mit UTF-8 in Net-Unicode-Form kodiert werden muss."
