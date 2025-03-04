@@ -9,8 +9,11 @@ git rebase upstream/main
 git push origin main -ff
 
 git checkout version/1.x.x/adaptive_apollo
-git rebase main
-git push -f origin version/1.x.x/adaptive_apollo -ff
+git merge main
+git push origin version/1.x.x/adaptive_apollo
+# or
+# git rebase main
+# git push origin version/1.x.x/adaptive_apollo -ff
 ```
 
 # install dev
