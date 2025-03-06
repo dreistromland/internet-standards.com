@@ -1749,7 +1749,7 @@ msgstr ""
 "*Anforderungsstufe: Empfohlen*"
 
 msgid "detail web appsecpriv http-securitytxt label"
-msgstr "sicherheit.txt"
+msgstr "security.txt"
 
 msgid "detail web appsecpriv http-securitytxt tech table"
 msgstr "Webserver IP-Adresse|Ergebnisse"
@@ -3884,7 +3884,7 @@ msgid "test siterpki error summary"
 msgstr "Test nicht lauffähig (RPKI)"
 
 msgid "test siterpki failed description"
-msgstr "Pech gehabt! Mindestens eine der IP-Adressen Ihres Webservers und der zugehörigen Nameserver hat eine Routenankündigung, die *nicht* mit der veröffentlichten Routengenehmigung ([RPKI](/faqs/rpki/)) übereinstimmt. Dies deutet auf einen unbeabsichtigten oder böswilligen Fehler in der Routenkonfiguration hin, der von Ihrem Webhoster oder Ihrem Nameserver-Hoster (interner Fehler) oder von einem Dritten (externer Fehler) verursacht werden kann. In jedem Fall erhöht sich das Risiko der Nichterreichbarkeit Ihres Servers oder des Abfangens des Internetverkehrs zu Ihrem Server. Wenden Sie sich so bald wie möglich an Ihren Webhoster oder Nameserver-Hoster. Im Falle eines internen Fehlers sollten sie ihren Netzbetreiber, dem die IP-Adressen Ihres Servers gehören, bitten, den Fehler in der Routenkonfiguration zu beheben."
+msgstr "Schade! Mindestens eine der IP-Adressen Ihres Webservers und der zugehörigen Nameserver hat eine Routenankündigung, die *nicht* mit der veröffentlichten Routengenehmigung ([RPKI](/faqs/rpki/)) übereinstimmt. Dies deutet auf einen unbeabsichtigten oder böswilligen Fehler in der Routenkonfiguration hin, der von Ihrem Webhoster oder Ihrem Nameserver-Hoster (interner Fehler) oder von einem Dritten (externer Fehler) verursacht werden kann. In jedem Fall erhöht sich das Risiko der Nichterreichbarkeit Ihres Servers oder des Abfangens des Internetverkehrs zu Ihrem Server. Wenden Sie sich so bald wie möglich an Ihren Webhoster oder Nameserver-Hoster. Im Falle eines internen Fehlers sollten sie ihren Netzbetreiber, dem die IP-Adressen Ihres Servers gehören, bitten, den Fehler in der Routenkonfiguration zu beheben."
 
 msgid "test siterpki failed summary"
 msgstr "*Unautorisierte* Routenansage (RPKI)"
@@ -3908,7 +3908,7 @@ msgid "test siterpki title"
 msgstr "Streckengenehmigung?"
 
 msgid "test siterpki warning description"
-msgstr "Pech gehabt! Mindestens eine der IP-Adressen Ihres Webservers und der zugehörigen Nameserver hat eine Routenankündigung, für die *keine* Routenberechtigung veröffentlicht ist ([RPKI](/faqs/rpki/)). Infolgedessen sind Besucher mit aktivierter Routenvalidierung *nicht* (vollständig) gegen verschiedene unbeabsichtigte oder böswillige Routenkonfigurationsfehler geschützt, die zur Nichterreichbarkeit Ihrer Server oder zum Abfangen des Internetverkehrs zu Ihren Servern führen können. Wenden Sie sich diesbezüglich an Ihren Mail-Hoster oder Nameserver-Hoster. Sie können ihren Netzbetreiber, dem die IP-Adressen Ihrer Server gehören, bitten, Routing-Autorisierungen zu veröffentlichen."
+msgstr "Schade! Mindestens eine der IP-Adressen Ihres Webservers und der zugehörigen Nameserver hat eine Routenankündigung, für die *keine* Routenberechtigung veröffentlicht ist ([RPKI](/faqs/rpki/)). Infolgedessen sind Besucher mit aktivierter Routenvalidierung *nicht* (vollständig) gegen verschiedene unbeabsichtigte oder böswillige Routenkonfigurationsfehler geschützt, die zur Nichterreichbarkeit Ihrer Server oder zum Abfangen des Internetverkehrs zu Ihren Servern führen können. Wenden Sie sich diesbezüglich an Ihren Mail-Hoster oder Nameserver-Hoster. Sie können ihren Netzbetreiber, dem die IP-Adressen Ihrer Server gehören, bitten, Routing-Autorisierungen zu veröffentlichen."
 
 msgid "test siterpki warning summary"
 msgstr "Streckengenehmigung *nicht* veröffentlicht (RPKI)"
