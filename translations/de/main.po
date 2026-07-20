@@ -65,7 +65,7 @@ msgid "base home"
 msgstr "Startseite"
 
 msgid "base info"
-msgstr "internet-standards.de ist eine Initiative der Internetgemeinschaft, Internet.nl und der dreistrom.land AG"
+msgstr "internet-standards.de ist eine Initiative der Internetgemeinschaft, Internet.nl und dreistrom.land - Eine Marke der TDSoftware GmbH"
 
 msgid "base news"
 msgstr "Nachrichten"
